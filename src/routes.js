@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 // const {
 //     addBookHandler,
 //     getAllBooksHandler,
@@ -5,34 +6,33 @@
 //     editBookByIdHandler,
 //     deleteBookByIdHandler,
 //   } = require('./handler');
-  
-  const routes = [
-    {
-      method: 'POST',
-      path: '/books',
+
+const routes = [
+  {
+    method: 'POST',
+    path: '/books',
     //   handler: addBookHandler,
-    },
-    {
-      method: 'GET',
-      path: '/books',
+  },
+  {
+    method: 'GET',
+    path: '/books',
     //   handler: getAllBooksHandler,
-    },
-    {
-      method: 'GET',
-      path: '/books/{id}',
+  },
+  {
+    method: 'GET',
+    path: '/books/{id}',
     //   handler: getBookByIdHandler,
-    },
-    {
-      method: 'PUT',
-      path: '/books/{id}',
+  },
+  {
+    method: 'PUT',
+    path: '/books/{id}',
     //   handler: editBookByIdHandler,
-    },
-    {
-      method: 'DELETE',
-      path: '/books/{id}',
+  },
+  {
+    method: 'DELETE',
+    path: '/books/{id}',
     //   handler: deleteBookByIdHandler,
-    },
-  ];
-  
-  module.exports = routes;
-  
+  },
+];
+
+module.exports = routes;
